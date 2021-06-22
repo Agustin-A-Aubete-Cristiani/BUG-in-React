@@ -1,0 +1,23 @@
+.Formulary {
+  width: 50%;
+  background-color: gold;
+  padding: 10px;
+  align-self: flex-start;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.Formulary__InputURL {
+  padding: 5px;
+  margin: 0 10px;
+  &::placeholder {
+    font-size: .8rem;
+  }
+}
+.Formulary__InputSubmit {
+  padding: 5px;
+  margin: 0 10px;
+  cursor: pointer;
+  user-select: none;
+}
